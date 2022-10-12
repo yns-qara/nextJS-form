@@ -1,0 +1,39 @@
+.form_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: bisque;
+    padding: 45px 75px;
+    max-width: 500px;
+    border-radius: 25px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container input{
+    border: 0;
+    padding: 9px;
+    border-radius: 12px;
+}
+.container input:focus{
+
+}
+
+.name {
+    display: flex;
+    width: 100%;
+}
+.container>input {
+    width: 100%;
+}
