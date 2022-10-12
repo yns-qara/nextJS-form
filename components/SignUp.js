@@ -11,13 +11,14 @@ const SignUp = () => {
             >
                 <h1>this is a sign up form</h1>
                 <div className={styles.name}>
-                    <input type="text" />
-                    <input type="text" />
+                    <input type="text" placeholder="name" />
+                    <input type="text" placeholder="family name" />
                 </div>
-
-                <input type="email" />
-                <input type="tel" />
-                <input type="password" />
+                <div className={styles.lower_input}>
+                    <input type="email" placeholder="email" />
+                    <input type="tel" placeholder="phone number" />
+                    <input type="password" placeholder="password" />
+                </div>
                 <button type="submit">sign up</button>
             </form>
         </div>

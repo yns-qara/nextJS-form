@@ -19,21 +19,50 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+
 }
 
-.container input{
+.container input {
     border: 0;
     padding: 9px;
     border-radius: 12px;
 }
-.container input:focus{
 
+.container input::placeholder {
+    color: rgb(95, 95, 95);
 }
 
 .name {
     display: flex;
+    justify-content: space-between;
     width: 100%;
 }
-.container>input {
+
+.name input{
+    max-width: 100px;
+}
+
+
+
+.lower_input{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: inherit;
+    
+}
+.lower_input input {
+    width: 100%;
+    
+}
+
+.container button{
+    border: 0;
+    padding: 15px 45px;
+    border-radius: 15px;
+    cursor: pointer;
+
+
 }
