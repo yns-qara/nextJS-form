@@ -9,7 +9,7 @@ const SignUp = () => {
             <form
                 className={styles.container}
             >
-                <h1>this is a sign up form</h1>
+                <h1>Create Account</h1>
                 <div className={styles.name}>
                     <input type="text" placeholder="name" />
                     <input type="text" placeholder="family name" />
