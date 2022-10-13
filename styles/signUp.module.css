@@ -22,7 +22,10 @@
 
 }
 
-
+.container div{
+    background-color: red;
+    
+}
 
 .container h1 {
     font-family: 'Open Sans';
