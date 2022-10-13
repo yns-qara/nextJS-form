@@ -11,9 +11,9 @@
     background: #FFFEFE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    padding: 45px 75px;
-    max-width: 500px;
-
+    padding: 72px 70px;
+    /* width: 500px; */
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,9 +22,10 @@
 
 }
 
-.container div{
-    background-color: red;
-    
+
+.container p a {
+    color: #089FE0;
+    text-decoration: underline;
 }
 
 .container h1 {
@@ -39,25 +40,47 @@
 
 .container input {
     border: 0;
-    padding: 9px;
+    padding: 12px 9px;
     border-radius: 12px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: #f5f5f5;
     border-radius: 5px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    caret-color: #089FE0;
+    color: #333333;
+}
+
+
+.container input:focus {
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.76);
+
 }
 
 .container input::placeholder {
-    color: rgb(95, 95, 95);
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
 }
 
 .name {
+    margin-top: 47px;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
 .name input {
-    max-width: 100px;
+    max-width: 120px;
 }
 
 
@@ -74,14 +97,27 @@
 
 .lower_input input {
     width: 100%;
-
 }
 
 .container button {
+    margin-top: 25px;
     border: 0;
     padding: 15px 45px;
-    border-radius: 15px;
+    border-radius: 5px;
     cursor: pointer;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: #089FE0;
+    transition: all .5s ease;
+}
 
-
+.container button:hover {
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.76);
+    /* transform: translateY(-2px); */
 }

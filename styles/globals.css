@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:wght@700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:wght@400;700&display=swap');
 
 
 
@@ -22,4 +22,8 @@ body {
   padding: 0;
   text-decoration: none;
   outline: 0;
+}
+
+*::selection{
+  background-color: #089FE0;
 }
