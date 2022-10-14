@@ -1,0 +1,21 @@
+.temp_nav{
+    display: flex;
+    gap: 25px;
+    color: #dddddd;
+}
+
+
+
+.temp_nav a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 49px;
+    text-align: center;
+    color: #dddddd;
+}
+
+.temp_nav a:visited{
+    color: inherit;
+}

@@ -21,7 +21,6 @@ const SignIn = () => {
 
         >
             <h1>Existing Account</h1>
-            <pre>{debug.toString()}</pre>
             <p>don&apos;t have an account?<Link href="/createaccount"> sign up</Link> </p>
             <div className={styles.lower_input__for_login}>
                 <input
