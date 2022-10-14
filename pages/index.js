@@ -1,18 +1,13 @@
-import SignUp from "../components/SignUp"
-import SignIn from "../components/SignIn"
 
-import { useState } from "react"
+// for demonstration purposes only
+import Link from "next/link";
 export default function Home() {
-  const [toggle, setToggle] = useState(false);
   return (
     <>
-      {
-        !toggle ? <SignIn
-          toggle={toggle}
-          setToggle={setToggle} /> : <SignUp
-          toggle={toggle}
-          setToggle={setToggle} />
-      }
+      <div>
+          <Link href="#">sign in</Link>
+          <Link href="#">sign up</Link>
+      </div>
     </>
   )
 }
